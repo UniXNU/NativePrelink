@@ -1,7 +1,7 @@
-# NativePrelink
+# XnuPrelink
 
-Kernel prelink tooling. Reads a Mach-O kernel and emits the prelinked image and boot metadata.
+XNU kernelcache prelink and ABI inspection.
 
-Current state: used by the kernel build and the sheng payload step.
+used by the kernel build and the sheng payload step.
 
-Run by `unixnu build kernel` and `unixnu build payload`.
+Build and interface details: [documentation](https://unixnu.com/drivers/xnu-prelink). Component sources and dependencies: [catalog](https://unixnu.com/reference/components).
